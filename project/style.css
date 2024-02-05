@@ -1,0 +1,66 @@
+*{
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    border: 1px solid white;
+    width: 450px;
+    background-color: gray;
+    height: 340px;
+    margin: auto;
+}
+form:hover{
+    background-color: aqua;
+}
+.conten h2{
+    color: white;
+    font-size: 40px;
+}
+.conten p{
+   font-size: 15px;
+}
+
+.name input{
+    border-radius: 30px;
+    width: 250px;
+    height: 25px;
+}
+.email input{
+     border-radius: 30px;
+    width: 250px;
+    height: 25px;
+}
+.pw input{ 
+     border-radius: 30px;
+    width: 250px;
+    height: 25px;
+}
+button{
+    width: 300px;
+    border-radius: 25px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(13, 45, 95);
+}
+.forgot{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+.forgot a{ 
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: right;
+}
+.forgot a:hover{
+    color: orangered;
+}
+.forgot label{
+    font-size: 15px;
+}
+input{
+    border-style: none;
+}

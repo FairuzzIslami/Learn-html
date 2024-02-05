@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin: auto;
+    }
+    .heading1{
+        background-color: aqua;
+        transition: all .5s;
+    }
+    .heading1:hover{
+        transform: scale(2)
+    }
+    .heading2{
+        background-color: blue;
+        transition: all .9s;
+    }
+    .heading2:hover{
+        transform: rotate(30deg);
+    }
+    .heading3{
+        background-color: tomato;
+        transition: all .9s;
+    }
+    .heading3:hover{
+        transform: skew(30deg);
+    }
+    .heading4{
+        background-color: black;
+        transition: all .9s;
+    }
+    .heading4:hover{
+        transform: translate(50px)
+    }
+</style>
+<body>
+    <div class="heading1"></div>
+    <div class="heading2"></div>
+    <div class="heading3"></div>
+    <div class="heading4"></div>
+</body>
+</html>

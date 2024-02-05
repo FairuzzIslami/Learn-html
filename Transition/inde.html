@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 200px;
+        height: 100px;
+        background-color: aqua;
+        transition: all .5s ease .3s;
+    }
+    .header:hover .container {
+        transform: rotate(90deg);
+        margin-left: 800px;
+        background-color: black;
+    }
+    .header{
+        width: 900px;
+        border: 5px solid black;
+    }
+</style>
+<body>
+    <div class="header">
+    <div class="container"></div>
+    </div>
+</body>
+</html>
